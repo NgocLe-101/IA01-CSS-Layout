@@ -15,8 +15,7 @@ module.exports = {
         "auto-fit-150": "repeat(auto-fit, minmax(150px, 1fr))",
       },
       backgroundImage: {
-        "mail-stamp":
-          "url('https://w7.pngwing.com/pngs/80/615/png-transparent-mail-stamp-postage-template-empty-plain-blank-stamps-thumbnail.png')",
+        "mail-stamp": "url('./assets/mail_stamp.svg')",
       },
     },
   },

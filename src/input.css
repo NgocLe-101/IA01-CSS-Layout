@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header-links > *:not(:last-child) {
+  border-right: 2px dashed rgba(113, 113, 122, 0.5);
+  line-height: 1;
+}
+
+@media (max-width: 1024px) {
+  .header-links > * {
+    flex-grow: 1;
+  }
+}
